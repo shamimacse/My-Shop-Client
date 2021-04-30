@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './Header.css';
-import Logo from '../../media/logo.svg';
+// import Logo from '../../media/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -30,7 +30,8 @@ const Header = () => {
                 <div id="result"></div>
                 <div className="container">
                     <div className="Logo">
-                        <Link to="/"><img src={Logo} alt="FoodBasket" /></Link>
+                       <h2 >MyShop</h2>
+                        {/* <Link to="/"><img src={Logo} alt="MyShop" /></Link> */}
                     </div>
                     <nav className="MainMenu" id="MainMenu">
                         <ul>

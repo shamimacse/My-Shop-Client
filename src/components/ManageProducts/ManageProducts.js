@@ -8,7 +8,7 @@ import { UserContext } from '../../App';
 import PreLoader from '../PreLoader/PreLoader';
 
 const ManageProducts = () => {
-    document.title = 'Manage Products - FoodBasket.Com';
+    document.title = 'Manage Products - MyShop.Com';
     const history = useHistory();
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [products, setProducts] = useState([]);

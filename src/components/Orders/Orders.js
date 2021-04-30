@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Orders = () => {
-    document.title = 'Orders - FoodBasket.Com';
+    document.title = 'Orders - MyShop.Com';
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [preLoad, setPreLoad] = useState(false);
     const [orders, setOrders] = useState([]);

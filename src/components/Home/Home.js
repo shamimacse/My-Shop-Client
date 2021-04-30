@@ -5,7 +5,7 @@ import Products from '../Products/Products';
 import PreLoader from '../PreLoader/PreLoader';
 
 const Home = () => {
-    document.title = 'FoodBasket.Com - #1 Grocery Shop in Bangladesh!';
+    document.title = 'MyShop.Com - #1 Grocery Shop in Bangladesh!';
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [products, setProducts] = useState([]);
     useEffect(() => {

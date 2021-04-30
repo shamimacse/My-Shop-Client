@@ -13,7 +13,7 @@ import {
 } from "react-router-dom";
 
 const Login = () => {
-    document.title = 'Login - FoodBasket.Com';
+    document.title = 'Login - MyShop.Com';
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     let history = useHistory();
     let location = useLocation();

@@ -8,7 +8,7 @@ import { faPlus, faBox, faPen } from '@fortawesome/free-solid-svg-icons';
 import { UserContext } from '../../App';
 
 const Admin = () => {
-    document.title = 'Add Products - FoodBasket.Com';
+    document.title = 'Add Products - MyShop.Com';
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [upProductImg, setUpProductImg] = useState('');
     const { register, handleSubmit, watch, errors } = useForm();
